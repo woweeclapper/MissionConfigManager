@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MissionConfigManager.Api/MissionConfigManager.Api.csproj" />
+  <Project Path="MissionConfigManager.Core/MissionConfigManager.Core.csproj" />
+  <Project Path="MissionConfigManager.Data/MissionConfigManager.Data.csproj" />
+  <Project Path="MissionConfigManager.Tests/MissionConfigManager.Tests.csproj" />
+</Solution>

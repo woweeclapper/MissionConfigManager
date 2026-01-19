@@ -1,0 +1,11 @@
+<MissionConfig>
+  <Module name="PowerSystem">
+    <Parameter key="Voltage" value="120" />
+    <Parameter key="Current" value="15" />
+  </Module>
+
+  <Module name="LifeSupport">
+    <Parameter key="OxygenLevel" value="98" />
+    <Parameter key="CO2Level" value="2" />
+  </Module>
+</MissionConfig>

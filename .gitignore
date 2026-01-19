@@ -1,0 +1,38 @@
+# --- .NET build artifacts ---
+bin/
+obj/
+out/
+*.user
+*.rsuser
+*.suo
+
+# --- ASP.NET Core ---
+appsettings.Development.json
+appsettings.Local.json
+
+# --- SQLite database files ---
+*.db
+*.db-shm
+*.db-wal
+
+# If  want to commit the schema but not the data:
+# !MissionConfigManager.Data/mission.db
+
+# --- Environment variables ---
+.env
+*.env
+
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDE junk ---
+.vscode/
+.vs/
+*.swp
+*.tmp
