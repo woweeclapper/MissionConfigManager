@@ -1,4 +1,3 @@
-
 # 🚀Mission Data Config Manager
 
 a lightweight backend service that ingests mission configuration XML files, parses them into strongly typed domain models, persists them into a SQLite database, and exposes them through a clean JSON API.
@@ -67,7 +66,7 @@ MissionConfigManager.Data/mission.db
 
 From the .Api Project Folder
 
-```bash
+```powershell
 dotnet run
 ```
 You should see:
@@ -80,14 +79,14 @@ Now listening on: http://localhost:XXXX
 ## Endpoints
 
 #### Request:
-```
+```bash
 curl -X POST http://localhost:XXXX/import-xml -F "file=@sample-config.xml"
 
 ```
 Uploads and imports an XML mission configuration file. 
 ### DO IT WITHIN THE API FOLDER
 
-#### Reponse
+#### Response
 ```
 { "Imported": 2 (or whatever your sample have) }
 ```
