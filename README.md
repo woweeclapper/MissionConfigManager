@@ -109,7 +109,7 @@ GET /modules
 ```
 
 
-## Future Enhancement (prob)
+## Future Enhancement (probably)
 
 - Add module search/filter endpoints
 - Add versioning for multiple XML imports
